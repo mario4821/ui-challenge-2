@@ -1,0 +1,68 @@
+*{
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    text-decoration: underline;
+}
+
+label {
+    font-size: 3em;
+}
+
+input {
+    font-size: 40px;
+    height: 60px;
+    width: 800px;
+    margin: .5em 0;
+    border: 1px solid #ccc;
+    border-width: 0 0 1px 0;
+    border-radius: 0;
+}
+
+textarea {
+    font-size: 40px;
+    height: 60px;
+    width: 800px;
+    margin: .5em 0;
+    border: 1px solid #ccc;
+    border-width: 0 0 1px 0;
+    border-radius: 0;
+}
+
+input:valid, textarea:valid {
+    border-color: solid black;
+}
+
+input:invalid, textarea:invalid {
+    border-color: red;
+}            
+
+#select-box {
+    padding: 8px 80px;
+}
+
+#buttons-selection {
+    margin: 40px 60px;
+}
+
+
+
+#checkbox {
+    width: 200px;
+    height: 60px;
+    background: url(form-elements-sprite.png);
+}
+
+#radio {
+    height: 50px;
+    background: url(form-elements-sprite.png);
+    background-position: -40px -50px;
+}
+
+#selection {
+    height: 147px;
+    background-position: -5px -288px;
+}
